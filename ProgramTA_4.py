@@ -609,10 +609,10 @@ def menus():
 
 if __name__=='__main__':
     root=Tk()
-    ikon_buka_file=PhotoImage(file=r"D:\Kuliah\TA-program\folder-open-document-text.png")
-    ikon_info=PhotoImage(file=r"D:\Kuliah\TA-program\information-button.png")
-    ikon_guide=PhotoImage(file=r"D:\Kuliah\TA-program\book-question.png")
-    ikon_buka_program=PhotoImage(file=r"D:\Kuliah\TA-program\notebook--arrow.png")
+    ikon_buka_file=PhotoImage(file=r"folder-open-document-text.png")
+    ikon_info=PhotoImage(file=r"information-button.png")
+    ikon_guide=PhotoImage(file=r"book-question.png")
+    ikon_buka_program=PhotoImage(file=r"notebook--arrow.png")
     app=FormUtama(root)
     ##Supaya command linenya langsung maximize begitu dibuka##
     user32 = ctypes.WinDLL('user32')
